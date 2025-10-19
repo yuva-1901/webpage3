@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+      *{
+   margin:10px;
+   padding:5px;
+   box-sizing:border-box;
+   }
+   h2,h3{
+   color:purple;
+   }
+   p{
+   font-style:italic;
+   color:blue;
+   }
+   form{
+   background-color:#f5cbe1;
+   }
+   fieldset{
+   border:2px dotted grey;
+   }
+  input[type="text"],input[type="email"],input[type="phone number"],textarea{
+   background-color:rgb(238, 221, 221);
+   width:50%;
+   border-radius:6px;
+   border:2px solid grey;
+   }
+   input[type="submit"],input[type="reset"],button{
+   background-color:rgb(208, 186, 186);
+   border-radius:8px;
+   border:2px solid grey;
+   }
+   
+  </style>
+</head>
+<body>
+    <h2>We Would Love to Hear From You.</h2>
+    <p>For inquiries, feedback, or assistance, please reach out to us using the form below.</p>
+    <form>
+        <fieldset>
+            <h3>Contact Us</h3>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>    
+            <label for="email">Your Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="phno">Your Contact Number:</label>
+            <input type="phone number" id="phno" name="phno" required>
+            <br><br>
+            <label for="message">Comment:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+            <br><br>
+            
+  </fieldset><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset"><br><br>
+            <p>We will get back to you as soon as possible.</p>
+            <p>Thank you for reaching out to us!</p>
+    </form>
+    
+</body>
+</html>
